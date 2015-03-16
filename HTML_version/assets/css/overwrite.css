@@ -332,6 +332,13 @@ margin-left: auto;
   padding: 3px;
   margin-bottom: 15px;
 }
+
+.grey-header {
+  background: #ccd1d9;
+  padding: 3px;
+  margin-bottom: 0px;
+}
+
 .grey-panel h5 {
   font-weight: 200;
   margin-top: 10px;
