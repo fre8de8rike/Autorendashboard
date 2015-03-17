@@ -3,27 +3,27 @@
 				{
 					value: 180,
 					color:"#1fda9a",
-					label: 'HELLO'
+					label: 'Homepage'
 				},
 				{
 					value : 100,
 					color : "#D8BA38",
-					label: 'HELLO3'
+					label: 'Suche'
 				},
 				{
 					value : 50,
 					color : "#28ABE3",
-					label: 'HELLO6'
+					label: 'Facebook'
 				},
 				{
 					value : 10,
 					color : "#DB3340",
-					label: 'HELLO38'
+					label: 'Sonstige'
 				},
 			
 			];
 
-	var myDoughnut = new Chart(document.getElementById("doughnut").getContext("2d")).Pie(doughnutData);
+	var myDoughnut = new Chart(document.getElementById("doughnut").getContext("2d")).Doughnut(doughnutData);
 
 	
 	
@@ -31,11 +31,24 @@
 
 				{
 					value : 45,
-					color : "#1fda9a"
+					color : "#1fda9a",
+					label: "Homepage",
+
 				},
 				{
 					value : 55,
-					color : "#D8BA38"
+					color : "#D8BA38",
+					label: "Suche",
+				},
+				{
+					value : 50,
+					color : "#28ABE3",
+					label: 'Facebook'
+				},
+				{
+					value : 10,
+					color : "#DB3340",
+					label: 'Sonstige',
 				},
 			
 			];

@@ -1151,7 +1151,7 @@
         function generateColor(_colors, _pattern) {
             var ids = [],
                 colors = _colors,
-                pattern = (_pattern !== null) ? _pattern : ['#2dcc70', '#1abc9c', '#3598DB', '#9A59B5', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf']; //same as d3.scale.category10()
+                pattern = (_pattern !== null) ? _pattern : ['#F7EAC8', '#1FDA9A', '#E5B51A', '#28ABE3', '#BE2C37', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf']; //same as d3.scale.category10()
 
             return function (id) {
                 // if specified, choose that color
