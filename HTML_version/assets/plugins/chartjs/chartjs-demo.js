@@ -2,52 +2,51 @@
 				
 				{
 					value: 180,
-					color:"#1fda9a",
+					color: "#00ddd8",
 					label: 'Homepage'
 				},
 				{
 					value : 100,
-					color : "#D8BA38",
+					color : "#ff606e",
 					label: 'Suche'
 				},
 				{
 					value : 50,
-					color : "#28ABE3",
+					color : "#517398",
 					label: 'Facebook'
 				},
 				{
 					value : 10,
-					color : "#DB3340",
+					color : "#ffffff",
 					label: 'Sonstige'
 				},
 			
 			];
 
 	var myDoughnut = new Chart(document.getElementById("doughnut").getContext("2d")).Doughnut(doughnutData);
-
 	
 	
 			var doughnutData2 = [
 
 				{
 					value : 45,
-					color : "#1fda9a",
+					color : "#00ddd8",
 					label: "Homepage",
 
 				},
 				{
 					value : 55,
-					color : "#D8BA38",
+					color : "#ff606e",
 					label: "Suche",
 				},
 				{
 					value : 50,
-					color : "#28ABE3",
+					color : "#517398",
 					label: 'Facebook'
 				},
 				{
 					value : 10,
-					color : "#DB3340",
+					color : "#ffffff",
 					label: 'Sonstige',
 				},
 			

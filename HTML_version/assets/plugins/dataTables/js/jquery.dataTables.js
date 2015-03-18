@@ -10616,7 +10616,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+			"sInfo": "Zeigt _START_ bis _END_ von _TOTAL_ Artikeln",
 	
 	
 			/**
@@ -10637,7 +10637,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfoEmpty": "Showing 0 to 0 of 0 entries",
+			"sInfoEmpty": "Zeigt 0 bis 0 von 0 Artikeln",
 	
 	
 			/**

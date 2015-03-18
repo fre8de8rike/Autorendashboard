@@ -58,7 +58,6 @@ margin-top: 0px;
 .panel-solid-default2 > .panel-body,
 .panel-solid-default2 > .panel-footer {
   background: #dfdfe1;
-  color: #fff;
   border: none;
   margin-top: 0px;
 }
@@ -73,13 +72,12 @@ margin-top: 0px;
 }
 
 .progress-bar-primary {
-  background-color: #1fda9a;
+  background-color: #517398;
 }
 
 /*containersmall */
 .containersmall {
-padding-right: 15px;
-padding-left: 15px;
+padding: 20px;
 margin-right: auto;
 margin-left: auto;
 }
@@ -111,191 +109,6 @@ margin-left: auto;
   
 }
 
-.green-panel {
-  text-align: center;
-  background: #68dff0;
-}
-.green-panel .green-header {
-  background: #43b1a9;
-  padding: 3px;
-  margin-bottom: 15px;
-}
-.green-panel h5 {
-  color: white;
-  font-weight: 200;
-  margin-top: 10px;
-}
-.green-panel h3 {
-  color: white;
-  font-weight: 100;
-}
-.green-panel p {
-  color: gray;
-}
-
-/*White Panel */
-.white-panel {
-  text-align: center;
-  background: #ffffff;
-  color: #ccd1d9;
-}
-
-.white-panel p {
-  margin-top: 5px;
-  font-weight: 700;
-  margin-left: 15px;
-}
-.white-panel .white-header {
-  background: #f4f4f4;
-  padding: 3px;
-  margin-bottom: 15px;
-  color: #c6c6c6;
-}
-.white-panel .small {
-  font-size: 10px;
-  color: #ccd1d9;
-}
-
-.white-panel i {
-  color: #68dff0;
-  padding-right: 4px;
-  font-size: 14px;
-}
-
-.darkblue-panel {
-  text-align: center;
-  background: #515151;
-}
-.darkblue-panel .darkblue-header {
-  background: transparent;
-  padding: 3px;
-  margin-bottom: 15px;
-  color: #ffffff;
-}
-.darkblue-panel h1 {
-  color: #f2f2f2;
-}
-
-.darkblue-panel h3 {
-  color: #ffffff;
-}
-.darkblue-panel h5 {
-  font-weight: 200;
-  margin-top: 10px;
-  color: white;
-}
-.darkblue-panel footer {
-  color: white;
-}
-.darkblue-panel footer h5 {
-  margin-left:10px; 
-  margin-right: 10px;
-  font-weight: 700;
-}
-
-.twitter-panel {
-  background: #4fc1e9;
-  text-align: center;
-}
-.twitter-panel i {
-  color: white;
-  margin-top: 40px;
-}
-.twitter-panel p {
-  color: #f5f5f5;
-  margin: 10px;
-}
-.twitter-panel .user {
-  color: white;
-  font-weight: 900;
-}
-
-.green-panel {
-  text-align: center;
-  background: #f2f2f2;
-}
-.green-panel .green-header {
-  background: #43b1a9;
-  padding: 3px;
-  margin-bottom: 15px;
-}
-.green-panel h5 {
-  color: white;
-  font-weight: 200;
-  margin-top: 10px;
-}
-.green-panel h3 {
-  color: white;
-  font-weight: 100;
-}
-.green-panel p {
-  color: white;
-}
-
-/*spark line*/
-.chart {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-}
-.chart .heading {
-    text-align: left;
-}
-.chart .heading span {
-    display: block;
-}
-.panel.green-chart .chart-tittle {
-    font-size: 16px;
-    padding: 15px;
-    display: inline-block;
-    font-weight:normal;
-    background: #99c262;
-    width: 100%;
-    -webkit-border-radius: 0px 0px 4px 4px;
-    border-radius: 0px 0px 4px 4px;
-}
-#barchart {
-    margin-bottom: -15px;
-    display: inline-block;
-}
-.panel.green-chart .chart-tittle .value {
-    float: right;
-    color: #c0f080;
-}
-.panel.green-chart {
-    background: #a9d96c;
-    color: #fff;
-}
-.panel.terques-chart {
-    background: transparent;
-    color: #797979;
-}
-.panel.terques-chart .chart-tittle .value {
-    float: right;
-    color: #fff;
-}
-.panel.terques-chart .chart-tittle .value a {
-    color: #2f2f2f;
-    font-size: 12px;
-}
-.panel.terques-chart .chart-tittle .value a:hover, .panel.terques-chart .chart-tittle .value a.active {
-    color: #68dff0;
-    font-size: 12px;
-}
-.panel.terques-chart .chart-tittle {
-    font-size: 16px;
-    padding: 15px;
-    display: inline-block;
-    font-weight:normal;
-    background: #39b7ac;
-    width: 100%;
-    -webkit-border-radius: 0px 0px 4px 4px;
-    border-radius: 0px 0px 4px 4px;
-}
-.inline-block {
-    display: inline-block;
-}
-
 /*PANELS FOR IMAGE*/
 .imagearticle {
   background: url(http://images.zeit.de/politik/ausland/2015-02/waffen-syrien/waffen-syrien-540x304.jpg) no-repeat center top;
@@ -306,7 +119,7 @@ margin-left: auto;
 /*darkblue Panel*/
 .darkblue-panel {
   text-align: center;
-  background: #444c57;
+  background: #DFDFE1;
 }
 
 .darkblue-panel .darkblue-header {
@@ -315,20 +128,20 @@ margin-left: auto;
   margin-bottom: 15px;
 }
 .darkblue-panel h1 {
-  color: #f2f2f2;
+  color: #5D5F63;
 }
+
+.darkblue-panel h3 {
+  color: #FF606E;
+}
+.darkblue-panel h4 {
+  color: white;
+}
+
 .darkblue-panel h5 {
   font-weight: 200;
   margin-top: 10px;
   color: white;
-}
-.darkblue-panel footer {
-  color: white;
-}
-.darkblue-panel footer h5 {
-  margin-left:10px; 
-  margin-right: 10px;
-  font-weight: 700;
 }
 
 /*Grey Panel*/
@@ -370,49 +183,32 @@ margin-left: auto;
   font-size: 38px;
 }
 
-/*White Panel */
-.white-panel {
-  text-align: center;
-  background: #ffffff;
-  color: #ccd1d9;
-}
-
-.white-panel p {
-  margin-top: 5px;
-  font-weight: 700;
-  margin-left: 15px;
-}
-.white-panel .white-header {
-  background: #f4f4f4;
-  padding: 3px;
-  margin-bottom: 15px;
-  color: #c6c6c6;
-}
-.white-panel .small {
-  font-size: 10px;
-  color: #ccd1d9;
-}
-
-.white-panel i {
-  color: #68dff0;
-  padding-right: 4px;
-  font-size: 14px;
-}
 
 
-/* CURRENTLY NOT IN USE CONFIGURATION */
-
-.dashboard-tile .content p {
-  margin-bottom: 0;
-  padding: 10px;
-  font-weight: 4 00;
-  font-size: 14px;
-  clear: both;
+/* BUTTONS */
+.btn-primary,
+a.btn-primary:link,
+a.btn-primary:visited {
+  color: #fff;
+  background-color: #5D5F63;
+}
+a.btn-primary:hover,
+a.btn-primary:active {
+  color: #ffffff;
+  background-color: #1dd2af;
+  border-color: #1dd2af;
 }
 
-#main-content .dashboard-tile .content h1 {
-  margin: 0;
-  font-weight: 300;
-  font-size: 20px;
-  padding: 8px;
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #5D5F63;
+  border-color: #5D5F63;
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: #5D5F63;
 }
